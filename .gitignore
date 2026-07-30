@@ -1,0 +1,34 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and cache files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and type-checking output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit local configuration and secrets
+.streamlit/secrets.toml
+
+# CrewAI local data and generated databases
+.crewai/
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Operating-system files
+.DS_Store
+Thumbs.db

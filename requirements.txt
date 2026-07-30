@@ -1,0 +1,10 @@
+# Agentic AI demo dependencies (Python 3.10+ required for create_agent).
+# create_agent() lives in LangChain 1.0+, so we pin the 1.x line.
+langchain>=1.0
+langgraph>=1.0
+langchain-google-genai
+langchain-tavily
+streamlit
+python-dotenv
+crewai>=1.0.0
+crewai-tools>=0.62.0
